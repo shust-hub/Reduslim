@@ -46,15 +46,15 @@
           </h1>
         </header>
         <div class="container">
-          <form class="reduslimForm" action="">
+          <form id="reduslimForm" class="reduslimForm" action="">
             <div class="reduslimForm__formGroup">
               <label class="formLabel" for="name">Ваше <span class="green">имя</span> </label><br>
-              <input class="formControl" type="text" id="name" name="name" placeholder="Алексей"><br>
+              <input class="formControl" type="text" id="name" name="name" placeholder="Алексей" required><br>
             </div>
             <div class="reduslimForm__formGroup">
               <label class="formLabel" for="tel">Ваш <span class="green">телефон</span></label><br>
               <div class="formGroup__row">
-                <input class="formControl" type="text" id="tel" name="tel" placeholder="+7 (123) 456 78 90">
+                <input class="formControl" type="text" id="tel" name="tel" placeholder="+7 (123) 456 78 90" required>
                 <select class="formControl picker country" id="country" name="country">
                   <option data-thumbnail="https://upload.wikimedia.org/wikipedia/en/thumb/f/f3/Flag_of_Russia.svg/255px-Flag_of_Russia.svg.png" data-mask="+7 (999) 999 99 99" value="RU" selected>RU</option>
                   <option data-thumbnail="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a4/Flag_of_the_United_States.svg/320px-Flag_of_the_United_States.svg.png" data-mask="(999) 999-9999" value="US">US</option>
