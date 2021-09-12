@@ -1,7 +1,7 @@
 import '../scss/index.scss'
 import '../js/jquery.maskedinput.min.js'
 
-
+$("#tel").mask($("select option:selected").attr('data-mask'));
 var langArray = [];
 $('.picker option').each(function(){
   var img = $(this).attr("data-thumbnail");
